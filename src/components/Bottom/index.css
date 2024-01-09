@@ -1,0 +1,53 @@
+.bottomLayout{
+    display: flex; 
+    flex-direction: column; 
+    
+} 
+@media (min-width:768px){
+    .bottomLayout{
+        display: flex; 
+        flex-direction: row; 
+        width: 950px;
+    }
+} 
+.topBar{
+    width:200px; 
+    flex-wrap: wrap; 
+    display: flex;  
+    flex-direction: row; 
+    justify-content: space-around; 
+
+    font-family: "Roboto"; 
+}  
+@media (min-width:768px){
+    .topBar{
+        width:650px; 
+        display: flex;  
+        flex-direction: row; 
+        justify-content: space-around; 
+        font-family: "Roboto";
+
+    }
+} 
+.btn{
+    background-color: transparent; 
+    border: none; 
+    margin: 2px;
+} 
+.btn:hover{
+    background-color: transparent; 
+    border: none; 
+    margin: 2px; 
+    color: blue;
+} 
+.unorderList{
+    list-style-type: none;
+} 
+.speed{
+    text-align: center; 
+    font-weight: bold;
+} 
+.finish{
+    color: yellow; 
+    border: 2px soli yellow;
+}

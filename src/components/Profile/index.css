@@ -1,0 +1,51 @@
+.profileLayOut{
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    border:3px solid yellowgreen; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center; 
+    font-family: "Roboto";
+} 
+
+@media (min-width:768px){
+    .profileLayOut{
+        display: flex; 
+        flex-direction: row;
+        border-radius: 10px;  
+        border:3px solid yellowgreen; 
+        justify-content: space-between;  
+        width: 940px; 
+        padding: 10px;
+
+        flex-grow: 1px; 
+        font-family: "Roboto";
+    }
+} 
+.nameAndAvatar{
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+} 
+.calandar{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+} 
+.today{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    border:1px solid gray; 
+    border-radius: 10px; 
+    margin: 10px; 
+    font-family: "Roboto"; 
+    padding: 2px;
+} 
+.Preview{
+    border:1px solid grey; 
+    border-radius: 10px; 
+    margin: 10px; 
+    font-family: "Roboto";
+}

@@ -1,0 +1,63 @@
+.sildeBarBackground{
+    background-color: #ffffff; 
+    width:200px;
+} 
+.iconAndName{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+} 
+.search{
+    background-color:#F7F9FF; 
+    border-radius: 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;  
+    height:30px; 
+    padding: 10px;
+    
+} 
+.input1{
+    border:none; 
+    background-color: transparent;
+} 
+.dashboard{
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    background-color: #EBF5FF; 
+    padding: 10px; 
+    height:30px; 
+    border-radius: 20px;
+} 
+.sideLine{
+    color:#F7F9FC;
+} 
+.options{
+    display: flex; 
+     
+    align-items: center; 
+    padding: 10px;
+} 
+.optionName{
+    padding-left: 20px; 
+    color: #838992;
+} 
+.avatar{
+    /* position: fixed; 
+    bottom: 0px; */
+    display:flex; 
+    margin-top: 150px;
+} 
+@media (max-width:767px){
+    .iconAndName{
+        display: none;
+    }
+} 
+
+@media (max-width:767px){
+    .sildeBarBackground{
+        background-color: #ffffff; 
+        width:200px;
+    }
+}
